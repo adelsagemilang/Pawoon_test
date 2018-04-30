@@ -1,31 +1,26 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
 export default class Header extends Component {
 	render() {
 		return (
-		  	<Navbar>
-			  <Navbar.Header>
-			    <Navbar.Brand>
-			      <a href='/'>React-Boilerplate</a>
-			    </Navbar.Brand>
-			  </Navbar.Header>
-			  <Nav>
-			    <NavItem eventKey={1} href="/login">
-			      Login
-			    </NavItem>
-			    <NavItem eventKey={2} href="/register">
-			      Register
-			    </NavItem>
-			    <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-			      <MenuItem eventKey={3.1}>Action</MenuItem>
-			      <MenuItem eventKey={3.2}>Another action</MenuItem>
-			      <MenuItem eventKey={3.3}>Something else here</MenuItem>
-			      <MenuItem divider />
-			      <MenuItem eventKey={3.4}>Separated link</MenuItem>
-			    </NavDropdown>
-			  </Nav>
-			</Navbar>
+		  	<div className="nav navbar navbar-default">
+				<div className="pull-left">
+					<button type="button" className="btn btn-transparent btn-rounded">29 hari lagi trial berakhir</button>
+				</div>
+				<div className="pull-right">
+					<div className="text">
+						<p className="menu">
+							<i className="fa fa-shopping-bag mg-r-5"></i>
+							Program Referal
+						</p>
+						<div className="separator"></div>
+						<p className="menu">
+							<i className="fa fa-bell mg-r-5"></i>
+							Irfan Rosandi
+						</p>
+					</div>
+				</div>
+		  	</div>
 		);
 	}
 }

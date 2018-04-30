@@ -1,7 +1,5 @@
-This Boilerplate was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+How to setup?
 
-See the attached link to get more info about create-react-app
-
-Also we used react-boostrap. you can play around to find another component to used here (https://react-bootstrap.github.io/components/alerts/)
-
-we haven't use a css preprocessor yet but feel free to add it
+git clone https://github.com/adelsagemilang/Pawoon_test.git
+npm install/yarn install
+npm start/yarn start

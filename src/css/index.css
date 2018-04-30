@@ -2,4 +2,151 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: #6a6a6a;
+}
+
+.row-flex{
+	display: flex;
+}
+
+.mg-r-5{
+	margin-right: 5px !important;
+}
+
+.mg-r-10{
+	margin-right: 10px !important;
+}
+
+.mg-t-20{
+	margin-top: 20px !important
+}
+
+.text-blue{
+	color: #00b2cd;
+}
+
+
+.sidebar{
+	min-height: 100vh;
+	background-color: #222630;
+	width: 230px;
+	position: fixed;
+	left: 0;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.sidebar img{
+	padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sidebar li{
+	color: #928d8d;
+	padding: 8px 15px 8px 30px;
+	cursor: pointer;
+}
+
+.sidebar li:hover{
+	background-color: #00b2cd;
+	color: white;
+}
+
+.page-wrapper{
+	padding-left: 230px;
+}
+
+.navbar-default{
+	background-color: white !important;
+	padding: 25px;
+}
+
+.btn-rounded{
+	padding: 10px 25px;
+	border-radius: 25px;
+}
+
+.btn-transparent{
+	border: 1px solid #aaa;
+	background-color: transparent;
+	color: #aaa;
+}
+
+.btn-outline-blue{
+	border: 1px solid #00b2cd;
+	background-color: transparent;
+	color: #00b2cd;
+}
+
+.navbar .pull-right .text{
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar .pull-right .text .menu{
+	padding: 10px 15px;
+	color: #aaa;
+	margin-bottom: 0px;
+}
+
+.navbar .pull-right .text .separator{
+	width: 2px;
+    background-color: #aaa;
+    opacity: 0.5;
+    margin: 0 25px;
+}
+
+.breadcumbs{
+	padding-left: 25px;
+	margin-top: 10px;
+}
+
+.breadcumbs span{
+	margin-right: 10px;
+}
+
+.breadcumbs .fa{
+	font-size: 12px;
+}
+
+.page-title{
+	padding-left: 25px;
+}
+
+.form-produk{
+	width: 150px;
+    margin: 20px auto 10px;
+    padding: 30px 15px;
+    border: 1px dashed #00b2ce;
+    border-radius: 10px;
+}
+
+.bottom-section{
+	padding: 0 25px;
+}
+
+.panel.grey-panel .panel{
+	padding: 15px;
+}
+
+.panel.grey-panel{
+	background-color: #f3f4f6;
+	padding: 0 200px 100px;
+	border-radius: 0px;
+	border: 1px solid #d5d5d5;
+}
+
+.panel.grey-panel .toggle-panel{
+	background-color: #ddd;
+	margin: 0 -200px 50px;
+	padding: 10px 25px;
+}
+
+.panel.grey-panel .toggle-panel .fa{
+	margin-right: 10px;
 }
